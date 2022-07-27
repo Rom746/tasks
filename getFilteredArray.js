@@ -3,7 +3,7 @@ var getFilteredArrayTs = function (array, step) {
     if (step === void 0) { step = 1; }
     var copyArray = array.sort(function (a, b) { return a - b; });
     var resultArray = getFilteredResultArray(copyArray);
-    console.log("step ".concat(step, ":"), resultArray);
+    console.log("step ".concat(step, ":"), resultArray.join(', '));
     if (resultArray.length == 0
         || resultArray.length == 1
         || resultArray.length == array.length) {
