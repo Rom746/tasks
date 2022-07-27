@@ -1,6 +1,6 @@
 # Задачи на логику
 
-Демо: [Create React App](https://github.com/facebook/create-react-app).
+Демо: [tasks](https://rom746.github.io/tasks/).
 
 Для тестирования вводим в консоль:
 
