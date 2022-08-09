@@ -17,12 +17,12 @@ window.getFilteredArray = (arr) => {
 };
 
 
-// staelBalls([100, 300, 200], 120);
-// staelBalls([10, 30, 20], 150);
-// staelBalls([10, 30, 20], 10);
-// staelBalls([1, 1, 1], 1);
-// staelBalls([2, 1, 2], 2);
-// staelBalls([1, 3, 1], 4);
+staelBalls([100, 300, 200], 120);
+staelBalls([10, 30, 20], 150);
+staelBalls([10, 30, 20], 10);
+staelBalls([1, 1, 1], 1);
+staelBalls([2, 1, 2], 2);
+staelBalls([1, 3, 0], 4);
 staelBalls([0, 0, 0], 4);
 
 

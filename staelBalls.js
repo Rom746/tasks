@@ -13,7 +13,7 @@ export const staelBalls = (store, amountBallsBag) => {
     const resultBag = sorted.map(item => {
         const [percent, index] = item;
         const countBalls = Math.round(amountBallsBag * percent / 100);
-        console.log(percent);
+    
         let resultCount;
 
         if (store[index] < countBalls) {
@@ -25,7 +25,6 @@ export const staelBalls = (store, amountBallsBag) => {
         }
 
         else if (countBalls == 0) {
-            console.log(32323);
             resultCount = percent == 0 ? 0 : amountBallsBag - tmpSum;
         }
 
