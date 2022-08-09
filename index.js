@@ -20,12 +20,12 @@ const staelBalls = (store, amountBallsBag) => {
     const sumBalls = store.reduce((sum, cur) => sum + cur, 0);
     const percentStore = store.map(item => item * 100 / sumBalls )
 
-    const result = store.map((item, index) => {
+    const resultBag = store.map((item, index) => {
         const countBalls = Math.floor(amountBallsBag * percentStore[index] / 100);
         return item > countBalls ? countBalls : item;
     })
 
-    console.log(result);
+    console.log(resultBag);
 }
 
 
