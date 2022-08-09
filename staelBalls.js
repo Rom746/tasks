@@ -31,7 +31,7 @@ export const staelBalls = (store, amountBallsBag) => {
     }).sort((a, b) => a[1] - b[1]).map(item => item[0]);
 
     console.log('');
-    console.log('Склад :', store);
+    console.log('Склад :', store.join(', '));
     console.log('Вместимомть мешка :', amountBallsBag);
-    console.log('Мешок :', resultBag);
+    console.log('Мешок :', resultBag.join(', '));
 }
