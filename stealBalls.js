@@ -2,7 +2,7 @@ export const stealBalls = (store, amountBallsBag) => {
     const sumBalls = store.reduce((sum, cur) => sum + cur, 0);
 
     if (sumBalls == 0) {
-        printLog(store);
+        printLog(store); 
         return;
     }
 
