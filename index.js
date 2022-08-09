@@ -17,13 +17,13 @@ window.getFilteredArray = (arr) => {
 };
 
 
-stealBalls([100, 300, 200], 120);
-stealBalls([10, 30, 20], 150);
-stealBalls([10, 30, 20], 10);
-stealBalls([1, 1, 1], 1);
-stealBalls([2, 1, 2], 2);
-stealBalls([1, 3, 1], 4);
-stealBalls([10, 0, 2], 4);
+// stealBalls([100, 300, 200], 120);
+// stealBalls([10, 30, 20], 150);
+// stealBalls([10, 30, 20], 10);
+// stealBalls([1, 1, 1], 1);
+// stealBalls([2, 1, 2], 2);
+// stealBalls([1, 3, 1], 4);
+// stealBalls([10, 0, 2], 4);
 stealBalls([25, 25, 25], 10);
 stealBalls([25, 25, 25, 25, 0], 10);
 stealBalls([25, 25, 25], 10);
