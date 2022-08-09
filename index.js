@@ -26,6 +26,7 @@ stealBalls([1, 3, 1], 4);
 stealBalls([10, 0, 2], 4);
 stealBalls([25, 25, 25], 10);
 stealBalls([25, 25, 25, 25], 10);
+stealBalls([25, 25, 25], 10);
 
 
 window.getStealBalls = (store, count) => {

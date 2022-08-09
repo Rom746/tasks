@@ -30,9 +30,7 @@ export const stealBalls = (store, amountBallsBag) => {
 
         else if (percent == sorted[i][0] && countBalls * 2 + tmpSum > amountBallsBag) {
             resultCount = Math.round(countBalls / 2);
-            console.log('--------');
         }
-
 
         else { 
             resultCount = countBalls;
