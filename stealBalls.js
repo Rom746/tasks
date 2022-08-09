@@ -1,4 +1,4 @@
-export const staelBalls = (store, amountBallsBag) => {
+export const stealBalls = (store, amountBallsBag) => {
     const sumBalls = store.reduce((sum, cur) => sum + cur, 0);
 
     if (sumBalls == 0) {
