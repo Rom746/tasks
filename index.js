@@ -32,4 +32,3 @@ window.getStealBalls = (store, count) => {
     stealBalls(store, count);
 };
 
-getStealBalls
