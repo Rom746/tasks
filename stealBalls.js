@@ -13,6 +13,7 @@ export const stealBalls = (store, amountBallsBag) => {
     const resultBag = sorted.map((item, i) => {
         const [percent, index] = item;
         const countBalls = Math.round(amountBallsBag * percent / 100);
+        console.log(countBalls);
     
         let resultCount;
 
@@ -28,7 +29,7 @@ export const stealBalls = (store, amountBallsBag) => {
             resultCount = percent == 0 ? 0 : amountBallsBag - tmpSum;
         }
 
-        else if (percent == sorted[i][0] && countBalls * 2 + tmpSum > amountBallsBag) {
+        else if (percent == sorted[i + 1][0] && countBalls * 2 + tmpSum > amountBallsBag) {
             resultCount = Math.round(countBalls / 2);
         }
 
